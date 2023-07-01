@@ -1,0 +1,30 @@
+.no_trial {
+  .page_payment {
+    .switcher {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  .features {
+    table {
+      tr {
+        td {
+          .feature-icon,
+          .feature-text {
+            .trial-info {
+              position: relative;
+              opacity: 1;
+            }
+
+            .no-trial-info {
+              position: absolute;
+              pointer-events: none;
+              opacity: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

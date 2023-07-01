@@ -1,0 +1,31 @@
+{
+  "dirname": "012",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode development",
+    "build": "vite build --mode production",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "i18n": "git archive --remote git@git.aiby.tools:content/Banners/ai-keyboard-ios-banners.git HEAD:'MONEY-6758' | tar xf - --directory src/i18n"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "@tsconfig/svelte": "^4.0.1",
+    "@types/fs-extra": "^11.0.1",
+    "@types/swiper": "^6.0.0",
+    "fs-extra": "^11.1.1",
+    "glob": "^10.2.6",
+    "svelte": "^3.57.0",
+    "svelte-check": "^2.10.3",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vite-plugin-zip-pack": "^1.0.5"
+  },
+  "dependencies": {
+    "swiper": "7.0.4"
+  }
+}

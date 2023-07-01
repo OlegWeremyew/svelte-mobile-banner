@@ -1,0 +1,27 @@
+#build-job:
+#  stage: build
+#  script:
+#    - curl -u jenkins:11fde3c33de925f7513aee5909ba82459b 'https://jenkins.bpmobile.org/job/QAAuto_Builders/job/QAAuto_Frontend/job/Banners_Builder_SN_Production/buildWithParameters?GIT_Name='$CI_PROJECT_NAME'&token=wu9eve289vh29ubvh2vbwei0rvj240v'
+#  only:
+#   - production
+
+build-job:
+  stage: build
+  script:
+    - yarn install
+    - yarn run build
+  only:
+   - production
+    
+deploy-prod:
+  stage: deploy
+  script:
+   - NAME=$(node -p -e "require('./package.json').dirname")
+   - BACKUP=`date +"%Y-%m-%d.%s"`
+   - ncftpput -R -v -u $FTP_LOGIN -p $FTP_PASS -P $FTP_PORT -m $FTP_HOST /$NAME dist/**
+   - rm -rf `pwd`
+  only:
+   - production
+
+variables:
+  GIT_CLEAN_FLAGS: -x -f -e dist/**

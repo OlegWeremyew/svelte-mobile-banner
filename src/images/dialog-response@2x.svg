@@ -1,0 +1,39 @@
+<svg width="343" height="290" viewBox="0 0 343 290" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="-5.42%" y1="15.33%" x2="76.114%" y2="80.777%" id="qrupdbleya">
+            <stop stop-color="#FFF" offset="0%"/>
+            <stop stop-color="#F8F8F8" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M265 0H42C28.745 0 18 10.745 18 24v32c0 13.255 10.745 24 24 24h247V24c0-13.255-10.745-24-24-24z" fill="#099562"/>
+        <text fill-rule="nonzero" font-family="-apple-system, SFPro-Medium, SF Pro" font-size="16" font-weight="500" fill="#FFF" transform="translate(18)">
+                        <tspan x="16" y="31">I&apos;m in the mood for some drama </tspan>
+                        <tspan x="16" y="55">tonight. Any recommendations?</tspan>
+                    </text>
+        <text font-family="-apple-system, SFPro-Bold, SF Pro" font-size="15" font-weight="bold" fill="#FFF" transform="translate(18)">
+                        <tspan x="285" y="59">15:01</tspan>
+                    </text>
+        <g opacity=".503" transform="matrix(-1 0 0 1 333 18)" stroke="#FFF">
+            <circle cx="10.5" cy="10.5" r="10"/>
+            <path stroke-linecap="round" d="M6.174 10.5h8.122M12.079 7.529l2.217 2.974-2.217 3.026"/>
+        </g>
+        <g>
+            <path d="M265 .5c6.49 0 12.364 2.63 16.617 6.883A23.426 23.426 0 0 1 288.5 24v133c0 6.49-2.63 12.364-6.883 16.617A23.426 23.426 0 0 1 265 180.5H.5V24c0-6.49 2.63-12.364 6.883-16.617A23.426 23.426 0 0 1 24 .5h241z" stroke="#E8E8E8" fill="url(#qrupdbleya)" transform="translate(0 109)"/>
+            <text fill-rule="nonzero" font-family="-apple-system, SFPro-Medium, SF Pro" font-size="16" font-weight="500" fill="#2C3E50" transform="translate(0 109)">
+                        <tspan x="16" y="31">If you&apos;re feeling dramatic, I </tspan>
+                        <tspan x="16" y="55">recommend checking out The </tspan>
+                        <tspan x="16" y="79">Whale. Brendan Fraser plays the </tspan>
+                        <tspan x="16" y="103">lead role, and he&apos;s absolutely </tspan>
+                        <tspan x="16" y="127">phenomenal. </tspan>
+                    </text>
+            <text font-family="-apple-system, SFPro-Bold, SF Pro" font-size="15" font-weight="bold" fill="#FFF" transform="translate(303 177)">
+                            <tspan x="0" y="41">15:01</tspan>
+                        </text>
+            <g opacity=".503" transform="translate(312 177)" stroke="#FFF">
+                <circle cx="10.5" cy="10.5" r="10"/>
+                <path stroke-linecap="round" d="M6.174 10.5h8.122M12.079 7.529l2.217 2.974-2.217 3.026"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg width="358" height="409" viewBox="0 0 358 409" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="1.191%" y1="-38.387%" x2="72.999%" y2="128.463%" id="bpji7vxq3a">
+            <stop stop-color="#FFF" offset="0%"/>
+            <stop stop-color="#F8F8F8" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M334 0H179c-13.255 0-24 10.745-24 24v4c0 13.255 10.745 24 24 24h179V24c0-13.255-10.745-24-24-24z" fill="#099562"/>
+        <text fill-rule="nonzero" font-family="-apple-system, SFPro-Medium, SF Pro" font-size="16" font-weight="500" fill="#FFF" transform="translate(155)">
+                        <tspan x="16" y="31">Hey! What can you do?</tspan>
+                    </text>
+        <g>
+            <path d="M281 .5c6.49 0 12.364 2.63 16.617 6.883A23.426 23.426 0 0 1 304.5 24v277c0 6.49-2.63 12.364-6.883 16.617A23.426 23.426 0 0 1 281 324.5H.5V24c0-6.49 2.63-12.364 6.883-16.617A23.426 23.426 0 0 1 24 .5h257z" stroke="#E8E8E8" fill="url(#bpji7vxq3a)" transform="translate(0 84)"/>
+            <text fill-rule="nonzero" font-family="-apple-system, SFPro-Medium, SF Pro" font-size="16" font-weight="500" fill="#2C3E50" transform="translate(0 84)">
+                        <tspan x="16.35" y="31">Greetings! My skillset includes, but </tspan>
+                        <tspan x="16.35" y="55">is not limited to:</tspan>
+                        
+                        <tspan x="16" y="102" font-family="AppleColorEmoji, Apple Color Emoji" font-weight="normal">🖊️</tspan>
+                        <tspan x="31.022" y="101.297">  </tspan>
+                        <tspan x="39.122" y="101.297" font-family="-apple-system, SFPro-Bold, SF Pro" font-weight="bold">Creating written content</tspan>
+                        
+                        <tspan x="16" y="126" font-family="AppleColorEmoji, Apple Color Emoji" font-weight="normal">📧</tspan>
+                        <tspan x="31.022" y="125.297">  </tspan>
+                        <tspan x="39.122" y="125.297" font-family="-apple-system, SFPro-Bold, SF Pro" font-weight="bold">Composing high-quality emails</tspan>
+                        <tspan x="16" y="150" font-family="AppleColorEmoji, Apple Color Emoji" font-weight="normal">📚</tspan>
+                        <tspan x="31.022" y="149.297">  </tspan>
+                        <tspan x="39.122" y="149.297" font-family="-apple-system, SFPro-Bold, SF Pro" font-weight="bold">Facilitating language learning</tspan>
+                        
+                        <tspan x="16" y="174" font-family="AppleColorEmoji, Apple Color Emoji" font-weight="normal">🗣️</tspan>
+                        <tspan x="31.022" y="173.297">  </tspan>
+                        <tspan x="39.122" y="173.297" font-family="-apple-system, SFPro-Bold, SF Pro" font-weight="bold">Keeping up any conversation</tspan>
+                        
+                        <tspan x="16" y="198" font-family="AppleColorEmoji, Apple Color Emoji" font-weight="normal">🎓</tspan>
+                        <tspan x="31.022" y="197.297">  </tspan>
+                        <tspan x="39.122" y="197.297" font-family="-apple-system, SFPro-Bold, SF Pro" font-weight="bold">Assisting in your studies</tspan>
+                        
+                        <tspan x="16" y="222" font-family="AppleColorEmoji, Apple Color Emoji" font-weight="normal">🧠</tspan>
+                        <tspan x="31.022" y="221.297">  </tspan>
+                        <tspan x="39.122" y="221.297" font-family="-apple-system, SFPro-Bold, SF Pro" font-weight="bold">Brainstorming ideas</tspan>
+                        
+                        
+                        <tspan x="16.35" y="271">and much more!</tspan>
+                    </text>
+        </g>
+    </g>
+</svg>

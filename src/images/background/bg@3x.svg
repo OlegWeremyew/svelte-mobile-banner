@@ -1,0 +1,28 @@
+<svg width="390" height="844" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="2hu4zt3faa">
+            <stop stop-color="#232323" offset="0%"/>
+            <stop stop-color="#0C0C0C" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="wbwmxdwf5d">
+            <stop stop-color="#878787" offset="0%"/>
+            <stop stop-color="#1F1F1F" offset="100%"/>
+        </linearGradient>
+        <filter x="-4%" y="-3.5%" width="108.1%" height="108.1%" filterUnits="objectBoundingBox" id="69wbqy2znb">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feMorphology radius="1" in="SourceAlpha" result="shadowInner"/>
+            <feOffset dy="2" in="shadowInner" result="shadowInner"/>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15295837 0" in="shadowBlurOuter1"/>
+        </filter>
+        <circle id="rumd5mfr8c" cx="466" cy="302" r="198.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#2hu4zt3faa)" d="M0 0h390v844H0z"/>
+        <g transform="rotate(43 466 302)">
+            <use fill="#000" filter="url(#69wbqy2znb)" xlink:href="#rumd5mfr8c"/>
+            <circle stroke="url(#wbwmxdwf5d)" stroke-linejoin="square" cx="466" cy="302" r="198"/>
+        </g>
+    </g>
+</svg>
